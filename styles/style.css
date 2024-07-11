@@ -60,4 +60,60 @@
   font-family: Azeret Mono;
 
 }
+.fourth-section{
+  font-family: Azeret Mono;
+  gap: 20px;
+  
+}
+.parent{
+  display: flex;
+  flex-direction:row;
+  gap: 5px;
+ 
+}
+.container{
+  
+  border: 1px solid black;
+  background-color: #255;
+  padding: 30px;
+  row-gap: 15px;
+  border-radius: 30px;
+}
+.input-btn{
+  display: flex;
 
+  justify-content: center;
+  padding-top: 13px;
+ 
+ 
+  
+}
+/* .section title and description h1{
+  text-align: center;
+  background-color: rgb(115, 61, 22);
+} */
+
+.fifth-section{
+  /* background-color: aquamarine; */
+  background-image: url(/assets/handshake.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 440px;
+}
+.section-head h3{
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+}
+.section-head p{
+  text-align: center;
+  padding-top: -40px;
+  font-size: 20px;
+}
+.main-footer{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
